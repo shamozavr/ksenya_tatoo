@@ -201,9 +201,15 @@
       <h3 class="subscription-header">Хочешь welcome-bonus?</h3>
       <p class="subscription-lead">Оставь свой номер телефона и мы подарим тебе подарочег</p>
       <p class="subscription-disclamer">Нажимая на кнопку вы соглашаетесь с политикой конфиденциальности</p>
-      <form class="subscription-form"></form>
+      <form class="subscription-form" action="" method="post">
+        <p class="subscription-form__form">
+          <label class="visually-hidden" for="subscription-phone">Номер телефона</label>
+          <input class="subscription-form__form-field" placeholder="Ваш номер телефона" type="subscription-phone"
+            name="subscription-phone" id="subscription-phone" required>
+        </p>
+        <button class="subscribe-butoon" type="submit">Отправить</button>
+      </form>
     </section>
-
   </main>
 </body>
 
